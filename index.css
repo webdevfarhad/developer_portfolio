@@ -42,6 +42,9 @@ nav a{
 .header{
     background: #FFF8F3;
 }
+.word-baap{
+    color: crimson;
+}
 .banner{
     padding: 30px 30px 0px 150px;
     display: flex;
