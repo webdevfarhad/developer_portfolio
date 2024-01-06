@@ -5,6 +5,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 nav>h3{
     font-size: 45px;
@@ -35,4 +36,13 @@ nav a{
     color: white; 
     font-size: 20px; 
     font-weight: 700;
+    padding: 10px;
+    margin-right: 20px;
+}
+.header{
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
 }
