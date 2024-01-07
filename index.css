@@ -90,6 +90,7 @@ nav a{
     justify-content: center;
     text-align: center;
     background-color: #FFF8F3 ;
+    box-shadow: 0px 5px 15px gray ;
 }
 .section-title{
     
@@ -109,11 +110,12 @@ nav a{
     
 }
 .about-info-container{
+    background-color:aliceblue;
     display: flex;
     align-items: center;
     justify-content: space-around;
     border-radius: 20px;
-    box-shadow: 15px 15px 15px gray ;
+    box-shadow: 0px 5px 15px gray ;
 }
 .about-info{
     text-align: center; 
@@ -173,6 +175,33 @@ nav a{
     text-align: center;
 }
 .footer{
-    border-color: #FFF8F3; 
+    text-align: left;
+    gap: 50px;
+    /* align-items: center; */
+    justify-content: space-around;
+    padding: 230px 200px;
+    align-content: center;
+    background-color: #FFF8F3; 
     display: flex;
+}
+.footer-col{
+    width: 450px;
+}
+.footer-icon{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.col-title{
+    font-size: 35px;
+    font-weight: 700;
+}
+.cols-desc{
+    margin: 20px 0px;
+    font-size: 16px;
+}
+input, textarea{
+    border-style: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 16px;
 }
