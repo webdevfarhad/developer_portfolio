@@ -172,3 +172,7 @@ nav a{
     padding: 20px;
     text-align: center;
 }
+.footer{
+    border-color: #FFF8F3; 
+    display: flex;
+}
